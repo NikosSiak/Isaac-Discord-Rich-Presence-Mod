@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>Discord Advance Rich Presence</name>
+    <directory>discordadvancerichpresence</directory>
+    <id>2240832659</id>
+    <description>Better rich presence status.
+
+[b]Important[/b]
+Currently there is only windows support. For this mod to work you need to enable the debug flag (instructions below). This is needed because in order to communicate with discord I need to write to a special file and to do that I need the debug flag on. The flag is also used to get the time you started a run.
+
+[b]Instructions[/b]
+1. Right click the game in your library
+2. Click &quot;Properties...&quot;
+3. Click &quot;SET LAUNCH OPTIONS...&quot;
+4. Write &quot;--luadebug&quot; on the input box and click OK
+
+[b]Comments[/b]
+For any bugs or ideas leave a comment.
+</description>
+    <version>1.3</version>
+    <visibility>Public</visibility>
+    <tag id="Lua"/>
+    <tag id="Tweaks"/>
+</metadata>
