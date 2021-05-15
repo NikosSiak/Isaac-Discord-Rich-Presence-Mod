@@ -3,48 +3,63 @@ local stageAssets = {
         'basement',
         'cellar',
         'burning_basement',
-        'basement_greed'
+        'basement_greed',
+        'downpour',
+        'dross'
     },
     {
         'basement',
         'cellar',
         'burning_basement',
-        'caves_greed'
+        'caves_greed',
+        'downpour',
+        'dross'
     },
     {
         'caves',
         'catacombs',
         'flooded_caves',
-        'depths_greed'
+        'depths_greed',
+        'mines',
+        'ashpit'
     },
     {
         'caves',
         'catacombs',
         'flooded_caves',
-        'womb_greed'
+        'womb_greed',
+        'mines',
+        'ashpit'
     },
     {
         'depths',
         'necropolis',
         'dank_depths',
-        'sheol_greed'
+        'sheol_greed',
+        'mausoleum',
+        'gehenna'
     },
     {
         'depths',
         'necropolis',
         'dank_depths',
-        'the_shop'
+        'the_shop',
+        'mausoleum',
+        'gehenna'
     },
     {
         'womb',
         'utero',
         'scarred_womb',
-        'ultra_greed'
+        'ultra_greed',
+        'corpse'
     },
     {
         'womb',
         'utero',
-        'scarred_womb'
+        'scarred_womb',
+        '',
+        'corpse'
     },
     {
         'blue_womb',
@@ -62,6 +77,10 @@ local stageAssets = {
     {
         'void',
         'void'
+    },
+    {
+        'home',
+        'home'
     }
 }
 
@@ -83,7 +102,30 @@ local characterAssets = {
     'keeper',
     'apollyon',
     'the_forgotten',
-    'the_soul'
+    'the_soul',
+    'bethany',
+    'jacob_and_esau',
+    'iamerror',
+    'tainted_isaac',
+    'tainted_magdalene',
+    'tainted_cain',
+    'tainted_judas',
+    'tainted_blue_baby',
+    'tainted_eve',
+    'tainted_samson',
+    'tainted_azazel',
+    'tainted_lazarus',
+    'tainted_eden',
+    'tainted_lost',
+    'tainted_lilith',
+    'tainted_keeper',
+    'tainted_apollyon',
+    'tainted_forgotten',
+    'tainted_bethany',
+    'tainted_jacob',
+    'dead_tainted_lazarus',
+    'tainted_jacob2',
+    'tainted_soul',
 }
 
 function StageToDiscordAsset(stage, stageType)
